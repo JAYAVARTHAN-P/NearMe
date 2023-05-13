@@ -28,7 +28,7 @@ Run the Django server and execute the HTML files.
         <font color="red"><b>Mannargudi</b></font>
     </h1>
     <h3 align="center">
-        <font color="blue"><b>Aakashraj M (212222100002)</b></font>
+        <font color="black"><b>JAYAVARTHAN-P(212222100015)</b></font>
     </h3>
     <centre>
     <img id="Image-Maps-Com-image-maps-2023-05-10-172105" src="Around me.png" border="0" width="1693" height="728" 
