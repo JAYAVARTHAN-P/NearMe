@@ -16,7 +16,7 @@ Write the required HTML code
 Run the Django server and execute the HTML files.
 
 ## Code:
-Map.html
+## Map.html
 ```
 <!DOCTYPE html>
 <html lang="en">
