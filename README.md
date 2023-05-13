@@ -228,39 +228,40 @@ Run the Django server and execute the HTML files.
     </body>
 </html>
 ```
-Output:
-Map:
+## Output:
+## Map:
 ![1](https://github.com/JAYAVARTHAN-P/NearMe/assets/121369281/2ed62d32-948b-4825-b653-d20f1e8d898b)
 
 
-College:
+## College:
 ![2](https://github.com/JAYAVARTHAN-P/NearMe/assets/121369281/54379b84-56c2-4c72-ad66-6979b3c19140)
 
 
 
-School:
+## School:
 ![3](https://github.com/JAYAVARTHAN-P/NearMe/assets/121369281/4adbf4bb-8583-4856-b305-bec04b51664d)
 
 
-AOoffice:
+## AOoffice:
 ![4](https://github.com/JAYAVARTHAN-P/NearMe/assets/121369281/fa9d0bba-84fe-4029-b94c-33254ad4ca4e)
 
 
-Temple:
+## Temple:
 ![5](https://github.com/JAYAVARTHAN-P/NearMe/assets/121369281/75687847-8370-4d32-ad32-dc392234330a)
 
 
-Ground:
+## Ground:
 ![6](https://github.com/JAYAVARTHAN-P/NearMe/assets/121369281/e2010a05-a4c9-4f60-9b6b-5cc5012b357b)
 
 
-Server Output:
+## Server Output:
 ![SERVER OUTPUT](https://github.com/JAYAVARTHAN-P/NearMe/assets/121369281/8bf58219-5291-4ee3-9314-05ce444addc8)
 
 
-HTML Validator:
+## HTML Validator:
 
 ![FINAL](https://github.com/JAYAVARTHAN-P/NearMe/assets/121369281/2e0f4391-ac92-4e1e-a89f-59831e7781cd)
 
-Result:
+## Result:
+
 The program for implementing image map is executed successsfully.
