@@ -50,11 +50,11 @@ Run the Django server and execute the HTML files.
         </centre>
     </body>
 </html>
-```
+
 
 ```
-College.html
-
+## College.html
+```
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -93,7 +93,7 @@ College.html
 </html>
 ```
 
-School.html
+## School.html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -126,7 +126,9 @@ School.html
         </p>
     </body>
 </html>
-AOoffice.html
+```
+## AOoffice.html
+```
 
 <!DOCTYPE html>
 <html lang="en">
@@ -161,7 +163,7 @@ AOoffice.html
     </body>
 </html>
 ```
-Temple.html
+## Temple.html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -194,7 +196,7 @@ Temple.html
     </body>
 </html>
 ```
-Ground.html
+## Ground.html
 ```
 <!DOCTYPE html>
 <html lang="en">
