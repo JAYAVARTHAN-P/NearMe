@@ -1,181 +1,230 @@
-# Ex04 Places Around Me
-## AIM
-
+## Places Around Me
+## AIM:
 To develop a website to display details about the places around my house.
-## DESIGN STEPS
-STEP 1
 
-Create a Django admin interface.
-STEP 2
+Design Steps:
+## Step 1:
+Clone the github repository into Theia IDE.
 
-Download your city map from Google.
-STEP 3
+## Step 2:
+Create a new Django project
 
-Using <map> tag name the map.
-STEP 4
+## Step 3:
+Write the required HTML code
 
-Create clickable regions in the image using <area> tag.
-STEP 5
+## Step 4:
+Run the Django server and execute the HTML files.
 
-Write HTML programs for all the regions identified.
-STEP 6
-
-Execute the programs and publish them.
-## CODE
-
-map.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>My City</title>
-</head>
-<body>
-<h1 align="center">
-<font color="red"><b>Palacode</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>JAYAVARTHAN-P(22008689)</b></font>
-</h3>
-<center>
-<img src="/static/images/map1.png" usemap="#MyCity" height="590" width="1490">
-<map name="MyCity">
-<area shape="rectangle" coords="850,311,950,365" href="/static/html/tm.html"
-title="Tomato Market">
-<area shape="rectangle" coords="712,41,872,126" href="/static/html/hmg.html"
-title="Mayura Grand">
-<area shape="rectangle" coords=990,315,1020,169" href="/static/html/pk.html"
-title="Poovankottai">
-<area shape="rectangle" coords="661,161,821,215" href="/static/html/po.html"
-title="Post Office">
-<area shape="rectangle" coords="1206,311,1266,365" href="/static/html/ll.html"
-title="Lotus Lake">
-</map>
-</center>
-</body>
-</html>
-
-hmg.html
+## Code:
+Map.html
+```
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Mayura Grand</title>
+        <title>My City</title>
     </head>
-    <body bgcolor="lime">
+    <body>
     <h1 align="center">
-    <font color="red"><b>Palacode</b></font>
+        <font color="red"><b>Mannargudi</b></font>
     </h1>
     <h3 align="center">
-    <font color="blue"><b>Mayura Grand</b></font>
+        <font color="blue"><b>Aakashraj M (212222100002)</b></font>
     </h3>
-    <hr size="3" color="red">
-    <p align="justify">
-    <font face="Georgia" size="5">
-    Conveniently situated in the Palacode pat of Dharmapuri, this property puts you close to attractions and interesting dining options</font>
-    </p>
+    <centre>
+    <img id="Image-Maps-Com-image-maps-2023-05-10-172105" src="Around me.png" border="0" width="1693" height="728" 
+         orgWidth="1693" orgHeight="728" usemap="#image-maps-2023-05-10-172105" alt="" />
+<map name="image-maps-2023-05-10-172105" id="ImageMapsCom-image-maps-2023-05-10-172105">
+<area  alt="" title="Mariyamman Kovil" href="temple.html" shape="rect" coords="703,650,890,722" style="outline:none;
+                    " target="_self"/>
+<area  alt="" title="MRGovernment Arts College" href="college.html" shape="rect" coords="735,262,870,385" 
+              style="outline:none;" target="_self"/>
+<area  alt="" title="Agriculture Office" href="AOoffice.html" shape="rect" coords="1106,268,1302,329" 
+              style="outline:none;" target="_self"/>
+<area  alt="" title="Findlay Higher Secondary School Ground" href="ground.html" shape="rect" coords="741,44,937,105" 
+              style="outline:none;" target="_self"/>
+<area  alt="" title="Newtunkids International School" href="school.html" shape="rect" coords="904,385,1077,486" 
+              style="outline:none;" target="_self"/>
+<area shape="rect" coords="1691,726,1693,728" alt="Image Map" style="outline:none;" title="Image Map" 
+             href="https://www.image-maps.com/"/>
+</map>
+        </centre>
     </body>
 </html>
+```
 
-ll.html
+```
+College.html
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Lotus Lake</title>
-</head>
-<body bgcolor="orange">
-<h1 align="center">
-<font color="red"><b>Palacode</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>Lotus Lake</b></font>
-</h3>
-<hr size="3" color="red">
-<p align="justify">
-<font face="Georgia" size="5">
-THAMAIRAI LAKE is in Palacode Dharmapuri District Tamil Nadu State in India. THAMARAI LAKE near by pincode areas are 636805(Mallupatti),636809 (Paupparapatti),635205(Periyanahalli),.Near by railway Stations are Palacode. It is in 22km distance to Dharmapuri City.</font>
-</p>
-</body>
+    <head>
+        <title>College</title>
+    </head>
+    <body bgcolor="#F3E5AB">
+        <h1 align="center">
+            <font color="red"><b>Mannargudi</b></font>
+        </h1>
+        <h3 align="center">
+            <font color="blue"><b>MRGovernment Arts and Science College</b></font>
+        </h3>
+        <hr size="3" color="red">
+        <p align="justify">
+            <font face="Arial" size="5">
+                It is the ancient arts and science college in our city. This college is in under of government.This college 
+                becomes very famous and populated college in our surroundings.The college was commissioned on 07.07.1971.
+                The then Chief Minister Dr. M. Karunanithi formally inaugurated the college on 13.08.1971. 
+                The college has a sylvan campus of forty acres and two hundred and twenty six square feet which was 
+                provided by Mannargudi Rajagopalaswamy Temple.The Government of Tamil Nadu paid the price for the land to the 
+                temple in 1987-88.The course B.A. History was started in 1972.
+                B.A. English Literature in 1978;B. Sc. Botany in 1978; B.Sc. Physics in 1979; B. Sc. Chemistry in 1980; 
+                B. Sc. Mathematics in 1985;B. Com. In 1990; B. Sc. Computer in 1996; M.A. Tamil Literature,M. Sc. Chemistry, 
+                M.A. History, B. Sc. Microbiology and B.B.A. courses were started in 2004-05. M. Sc. Computer Science,
+                M. Com. And M. Sc. Mathematics were started in 2005-06.Students are now studying in this college. 
+                The college, which was earlier affiliated to the University of Madras, was affiliated to the 
+                Bharathidasan University,Trichirappalli in the academic year 1982-83. 
+ 
+
+                "A college degree is not a sign of a finished product but 
+                    an indication a person is prepared for life"
+                                                                      -Edward A. Malloy
+            </font>
+        </p>
+    </body>
 </html>
+```
 
-pk.html
+School.html
+```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>PoovanKottai</title>
-</head>
-<body bgcolor="pink">
-<h1 align="center">
-<font color="red"><b>Palacode</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>PoovanKottai</b></font>
-</h3>
-<hr size="3" color="red">
-<p align="justify">
-<font face="Arial" size="5">
-GitHub - 22008650/NearMe https://github.com/22008650/nearme
-11 of 17 08/05/2023, 21:44
-<b>
-Poovankottai is a small Village/hamlet in Karimangalam Block in Dharmapuri District of Tamil Nadu State, India. It comes under Pulikal Panchayath.
-</font>
-</p>
-</body>
+    <head>
+        <title>School</title>
+    </head>
+    <body bgcolor="#FFF9E3">
+        <h1 align="center">
+            <font color="red"><b>Mannargudi</b></font>
+        </h1>
+        <h3 align="center">
+            <font color="blue"><b>Newtunkids International School</b></font>
+        </h3>
+        <hr size="3" color="red">
+        <p align="justify">
+            <font face="Arial" size="5">
+                Newtunkids International school is the school where I completed my primary classes.
+                It is a private International school.The infrastructure of the campus is quite impressive.
+                The teachers are very kind and take care of each and very student.
+                They also teach other extra curricular activites such as dance, music, yoga and sports.
+                The fees structure of the school is very genuine and affordable as compared to other
+                international primary school.I thoroughly enjoyed my days while I was studying here.
+
+                "Creativity is the key to success in the future,
+                         and primary education is 
+                    where teachers can bring creativity
+                         in childrenat that level."
+                                                  -Abdul kalam
+            </font>
+        </p>
+    </body>
 </html>
+AOoffice.html
 
-po.html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Post Office</title>
-</head>
-<body bgcolor="yellow">
-<h1 align="center">
-<font color="red"><b>Palacode</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>Post office
-</b></font>
-</h3>
-<hr size="3" color="red">
-<p align="justify">
-<font face="Tahoma" size="5">
-Palacode S.O post officce belongs to Palacode,Dharmapuri, Tamil Nadu. This Post Office belongs to Tamil Nadu circle, and further under Coimbatore Region and Dharmapuri division. The post office Palacode S.O type is a Sub Post Office. Usual business hours for Palacode Sub Post Office is from 8 am to 4 pm and working days are from Monday to Saturday. This doesn't include public holidays or extended business hours as declared by Indian post office.
- </p>
-</body>
+    <head>
+        <title>AOoffice</title>
+    </head>
+    <body bgcolor="pink">
+        <h1 align="center">
+            <font color="red"><b>Mannargudi</b></font>
+        </h1>
+        <h3 align="center">
+            <font color="blue"><b>Agriculture Office</b></font>
+        </h3>
+        <hr size="3" color="red">
+        <p align="justify">
+            <font face="Arial" size="5">
+                In Mannargudi AOoffice is a new builed building.Our District head officers were decied to rise a 
+                agriculture office in our city and make it is head of AOoffice to our district.
+                The Agricultural Department has taken up the challenge to achieve higher growth rate in agriculture 
+                by implementing several development schemes and also propagation of relevant technologies to step up the 
+                production. Intensive Integrated Farming System NMSA, Massive Wasteland Development Programme,
+                Mission on Sustainable Dry land Agriculture,Collective farming, Comprehensive watershed development activities,
+                Water management through Micro Irrigation Systems, Soil health improvement through Bio-Fertilizer including 
+                Green Manuring,Sustainable Sugarcane Initiative, Organic Farming,adoptation of Integrated Nutrient Management.
+
+                Infra-structure Facilities:
+                            Fertilizer Control Laboratory Thiruvarur (Mannargudi)
+                            Soil Testing Laboratory Thiruvarur (Mannargudi)
+                            Mobile Soil Testing Laboratory Thiruvarur (Mannargudi)
+            </font>
+        </p>
+    </body>
 </html>
-
-tm.html
+```
+Temple.html
+```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Tomato Market</title>
-</head>
-<body bgcolor="cyan">
-<h1 align="center">
-<font color="red"><b>Palacode</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>Tomato Market</b></font>
-</h3>
-<hr size="3" color="red">
-<p align="justify">
-<font face="Courier New" size="5">
-<b>
-GitHub - 22008689/NearMe https://github.com/22008650/nearme
-12 of 17 08/05/2023, 22:12
+    <head>
+        <title>Temple</title>
+    </head>
+    <body bgcolor="#ADDFFF">
+        <h1 align="center">
+            <font color="red"><b>Mannargudi</b></font>
+        </h1>
+        <h3 align="center">
+            <font color="blue"><b>Mariyamman Kovil</b></font>
+        </h3>
+        <hr size="3" color="red">
+        <p align="justify">
+            <font face="Arial" size="5">
+                Asesham Mariyamman Kovil is temple where our mariyamman is living and blessing the disciples.
+                Our mariyamman is also called as "GOD OF RAIN".In our city,this temple is consider as very ancient 
+                and famous temple.Our farmers has a huge faith on this god for rain before they harvest.
+                It is believed by the devotees that the Goddess has enormous powers over curing illnesses and hence, 
+                it is a ritual to buy small metallic replicas,made with silver or steel, of various body parts that need 
+                to be cured, and these are deposited in the donation box.The temple attracts thousands of devotees on Sundays,
+                Tuesdays and Fridays, the holy days for Mariamman.
+                
+
+                "The Temple of our purest thoughts is silence"
+                                                         -Sarah Josepha Hale
+            </font>
+        </p>
+    </body>
+</html>
+```
+Ground.html
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ground</title>
+    </head>
+    <body bgcolor="#C3FDB8">
+        <h1 align="center">
+            <font color="red"><b>Mannargudi</b></font>
+        </h1>
+        <h3 align="center">
+            <font color="blue"><b>Findlay Higher Secondary School Ground</b></font>
+        </h3>
+        <hr size="3" color="red">
+        <p align="justify">
+            <font face="Arial" size="5">
+                It is a famous and huge playing ground in our city.This ground is owned by Findlay Higher Secondary school.
+                At early morning old age people used to use this ground for walking,teenage people were used to play cricket,
+                football,hockey.This ground is common to all the school students.Monthly once they conduct cricket,footbal 
+                tournament or something else.At noon most of them used to learn driving in the ground. Most of the college
+                 and school will conduct thier anual sports day in this ground.In that way this ground is very useful to 
+                all the schools and colleges.
+
+
+                "The world is your playground-play with a sense of density"
+                                                                        -Edward Boyden
+            </font>
+        </p>
+    </body>
+</html>
+```
 Output:
-Palacode Tomato Market in Dharmapuri is one of the leading bussiness in the Tomato Wholesalers. Also known for Tomato Wholesalers, Vegatable Vendors,Tomato Retailers and much more. Find Address, Contact Number, Reviews & Ratings, Photos, Maps of Palacode Tomato Market, Dharmapuri.
-Palacode Tomato Market in Palacode, Dharmapuri is a top player in the category Tomato wholesalers in the Dharmapuri. This well=know establishment acts as a one-stop destination servicing customers both local and from other parts of Dharmapuri. Over the course of its joourney, this business has establishee a firm foothold in it's industry. The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company. In the nea future, this business aims to expand its line of products and services and cater to a larger client base.In Dharmapuri, this establishment occupies a prominent location in Palacode. It is an effortless task in commuting to this establishment as there are various modes of transport readily available. It is known to provide top service in the following categories. Tomato Wholesalers, Vegatable Vendors,Tomato Retailers.</b>
-</font>
-</p>
-</body>
-</html> 
-
-## OUTPUT
-
-
-
-## HTML VALIDATOR
-
-
-## RESULT
-The program for implementing image maps using HTML is executed successfully.
+Map:
